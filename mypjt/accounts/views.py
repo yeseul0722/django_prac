@@ -18,4 +18,7 @@ def login(request):
     context = {'form': form}
     return render(request, 'accounts/login.html', context)
 
+def logout(request):
+    pass
+
     
